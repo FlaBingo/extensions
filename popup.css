@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; width: 340px; padding: 12px; }
+input, textarea { width: 100%; padding: 6px; margin: 6px 0; box-sizing: border-box; }
+button { padding: 8px 10px; margin-top: 6px; }
+.small { font-size: 12px; padding: 6px 8px; }
+.row { display:flex; gap:6px; }
+.msg { color: #0b5394; font-size: 13px; margin-top:6px; }
