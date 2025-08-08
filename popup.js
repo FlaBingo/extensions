@@ -206,10 +206,10 @@ saveBtn.addEventListener("click", async () => {
     description: descEl.value.trim(),
     price: cleanedPrice,
     image: imageEl.value.trim(),
-    link: linkEl.value.trim(),
+    purchaseLink: linkEl.value.trim(),
   };
-  if (!product.name || !product.link || !product.price || !product.image) {
-    saveMsg.textContent = "Title, Price, Image and link are required.";
+  if (!product.name || !product.purchaseLink || !product.price || !product.image) {
+    saveMsg.textContent = "Title, Price, Image and Link are required.";
     return;
   }
 
